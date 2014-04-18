@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>The world of HE Wei</title>
 		<meta charset="utf-8" />
-		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
 	</head>
 	<body>
-		<div id="main">
-			<p>Hello World</p>
+
+		<div class="container" style="width: 900px">
+			<!--	轮播		 -->
+			<div id="ppt">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img/1.png" alt="first"/>
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img src="img/2.png" alt="second"/>
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img src="img/3.png" alt="third" />
+							<div class="carousel-caption"></div>
+						</div>
+						<div class="item">
+							<img src="img/4.png" alt="fourth" />
+							<div class="carousel-caption"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-3">
+					<ul class="nav nav-pills  nav-stacked">
+						<li class="active">
+							<a href="#">
+								个人信息
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								教育背景
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								工作经历
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								项目经历
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								个人技能
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-9">
+					<div class="panel panel-primary">
+						<div class="panel-heading"><h4>个人信息</h4></div>
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-xs-12 col-sm-3">
+									
+								</div>
+								<div class="col-xs-12 col-sm-9">
+									<p>何伟</p>
+									<p>yjqmml@gmail.com</p>
+									<p>14714322584</p>
+									<p><time datetime="1990-10-15">1990-10-15</time></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+
 	</body>
 </html>
