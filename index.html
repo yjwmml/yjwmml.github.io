@@ -1,99 +1,392 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>The world of HE Wei</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
-		<script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
-
-		<link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="css/semantic.css" />
+		<script type="text/javascript" src="js/semantic.js" ></script>
+		<title></title>
 	</head>
 	<body>
+		<div class="ui grid">
+			<div class="two wide column"></div>
+			<div class="twelve wide column">
 
-		<div class="container" style="width: 900px">
-			<!--	轮播		 -->
-			<div id="ppt">
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
-					<ol class="carousel-indicators">
-						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="item active">
-							<img src="img/1.png" alt="first"/>
-							<div class="carousel-caption"></div>
-						</div>
-						<div class="item">
-							<img src="img/2.png" alt="second"/>
-							<div class="carousel-caption"></div>
-						</div>
-						<div class="item">
-							<img src="img/3.png" alt="third" />
-							<div class="carousel-caption"></div>
-						</div>
-						<div class="item">
-							<img src="img/4.png" alt="fourth" />
-							<div class="carousel-caption"></div>
+				<div class="ui vertically divided grid">
+					<!--基本信息-->
+					<div class="one column row">
+						<div class="center aligned column">
+							<div class="ui center aligned buttons">
+								<div class="ui red animated button" onclick="parent.location='mailto:yjqmml@gmail.com'">
+									<div class="visible content">
+										给份offer
+									</div>
+									<div class="hidden content">
+										<i class="mail outline icon"></i>
+									</div>
+								</div>
+								<div class="or"></div>
+								<div class="ui animated positive button"  onclick="parent.location='mailto:yjqmml@gmail.com'">
+									<div class="visible content">
+										给个面试
+									</div>
+									<div class="hidden content">
+										<i class="mail outline icon"></i>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+					<div class="two column row">
+						<div class="ui grid">
 
-			<div class="row">
-				<div class="col-xs-12 col-sm-3">
-					<ul class="nav nav-pills  nav-stacked">
-						<li class="active">
-							<a href="#">
-								个人信息
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								教育背景
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								工作经历
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								项目经历
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								个人技能
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-9">
-					<div class="panel panel-primary">
-						<div class="panel-heading"><h4>个人信息</h4></div>
-						<div class="panel-body">
-							<div class="row">
-								<div class="col-xs-12 col-sm-3">
-									
+							<div class="four wide column">
+								<div class="ui ribbon red label">
+									<h3 class="ui header">基本信息</h2>
 								</div>
-								<div class="col-xs-12 col-sm-9">
-									<p>何伟</p>
-									<p>yjqmml@gmail.com</p>
-									<p>14714322584</p>
-									<p><time datetime="1990-10-15">1990-10-15</time></p>
+							</div>
+							<div class="twelve wide column">
+								<div class="ui grid">
+									<div class="eight wide column">
+										<img class="circular ui left floated image" src="img/header.jpg"/>
+										<br />
+										<br />
+										<div id="name">
+											<i class="large red user icon"></i>何伟
+										</div>
+										<div id="mail">
+											<i class="large red mail icon"></i>yjqmml@gmail.com
+										</div>
+										<div id="phone">
+											<i class="large red phone icon"></i>+86-14714322584
+										</div>
+									</div>
+									<div class="eight wide column">
+										<div class="ui red segment">
+											<div class="ui red top left attached label">
+												个人简介
+											</div>
+											<p>
+												爱笑，爱冒险，爱与人为伍；爱写代码，喜欢自己写一些小程序，有问题喜欢在Stack Overflow上找答案；爱打篮球，喜欢防守，队里最苦最累的活儿总是我来干；爱在实践中学习知识，之前参加Google code jam, 虽然第一次参加没有能够前进多少，但依然收货良多；爱关注互联网最前沿的新闻；有恒心，有毅力，对于自己喜欢的事绝不放弃，我追我女朋友可是从初一追到大一。
+											</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<!--教育经历-->
+					<div class="two column row">
+						<div class="ui grid">
+
+							<div class="four wide column">
+								<div class="ui ribbon blue label">
+									<h3 class="ui header">教育经历</h2>
+								</div>
+							</div>
+							<div class="twelve wide column">
+								<div class="ui grid">
+									<div class="eight wide column">
+										<div class="blue ui piled segment">
+											<img class="circular ui left floated image" src="img/cityu.jpg"/>
+											<p></p>
+											<div>
+												香港城市大学
+											</div>
+											<div>
+												2013.09 - 2014.07
+											</div>
+											<div>
+												电子工程学院
+											</div>
+											<div>
+												多媒体信息科技
+											</div>
+											<p></p>
+										</div>
+									</div>
+									<div class="eight wide column">
+										<div class="blue ui piled segment">
+											<img class="circular ui left floated image" src="img/njust.jpg"/>
+											<p></p>
+											<div>
+												南京理工大学
+											</div>
+											<div>
+												2009.09 - 2013.06
+											</div>
+											<div>
+												计算机科学与技术学院
+											</div>
+											<div>
+												软件工程
+											</div>
+											<p></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--实习经历-->
+					<div class="two column row">
+						<div class="ui grid">
+							<div class="four wide column">
+								<div class="ui ribbon green label">
+									<h3 class="ui header">实习经历</h2>
+								</div>
+							</div>
+							<div class="twelve wide column">
+								<div class="ui grid">
+									<div class="eight wide column">
+										<div class="green ui stacked segment">
+											<div>
+												焦点科技股份有限公司(南京)
+											</div>
+											<div>
+												2012.07 - 2012.10
+											</div>
+											<div>
+												软件研发实习生
+											</div>
+											<div>
+												学习Java,J2EE的相关知识，参与了“新一站”项目的研发与维护。
+											</div>
+										</div>
+									</div>
+									<div class="eight wide column">
+										<div class="green ui stacked segment">
+											<div>
+												郎孚家居有限公司(南通)
+											</div>
+											<div>
+												2013.01 - 2013.04
+											</div>
+											<div>
+												Android应用开发员
+											</div>
+											<div>
+												负责开发该公司用于内部展示其产品的Android应用。
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--项目经历-->
+					<div class="two column row">
+						<div class="ui grid">
+							<div class="four wide column">
+								<div class="ui ribbon teal label">
+									<h3 class="ui header">项目经历</h4>
+								</div>
+							</div>
+							<div class="twelve wide column">
+								<div class="ui teal segment">
+									<div>
+										<h3 class="ui teal center aligned header">Currency Conversion</h3>
+									</div>
+									<div>
+										<strong>项目人数：</strong>1人
+									</div>
+									<div>
+										<strong>项目时间：</strong>2014.3.1 – 2014.3.3
+									</div>
+									<div>
+										<strong>项目简介：</strong>这是一款用于各国货币转换的Android应用，采用图形选择界面，简单明了，其汇率数据实时更新自中国银行官网。
+									</div>
+									<div>
+										<strong>个人职责：</strong>该项目由本人独自完成，其汇率数据通过解析网页源代码的方式来更新实时数据，并且在应用中加入了Admob广告条。
+									</div>
+								</div>
+								<div class="ui teal segment">
+									<div>
+										<h3 class="ui teal center aligned header">Cool Cook</h3>
+									</div>
+									<div>
+										<strong>项目人数：</strong>4人
+									</div>
+									<div>
+										<strong>项目时间：</strong>2014.2.1 – 2014.4.30
+									</div>
+									<div>
+										<strong>项目简介：</strong>这是一款为年轻人设计食谱应用。用于可以搜索菜谱，根据食材匹配菜谱，同时用户可以上传自己的成果以及制作菜谱来享受更多乐趣。项目的宣传视频：
+										<a href="http://v.youku.com/v_show/id_XNzU0MjUyMDE2.html">
+											http://v.youku.com/v_show/id_XNzU0MjUyMDE2.html
+										</a>
+										。应用的操作说明视频：
+										<a href="http://v.youku.com/v_show/id_XNzU0MjU1NTg4.html">
+											http://v.youku.com/v_show/id_XNzU0MzMzNTU2.html
+										</a>
+										。
+									</div>
+									<div>
+										<strong>个人职责：</strong>本人作为group leader，负责Android端及服务器端所有代码的编写。Android端方面，采用Android SDK 4.3进行编写; 服务器端采用Tomcat + MySQL + J2EE的方式进行搭建。Android端与服务器端之间利用HTTP协议进行通信，数据格式为Json格式。
+									</div>
+								</div>
+								<div class="ui teal segment">
+									<div>
+										<h3 class="ui teal center aligned header">FaXian</h3>
+									</div>
+									<div>
+										<strong>项目人数：</strong>2人
+									</div>
+									<div>
+										<strong>项目时间：</strong>2013.8.1 – 2013.11.1
+									</div>
+									<div>
+										<strong>项目简介：</strong>这是一款利用JavaScript，HTML5，Chrome API实现的通过追踪用户在chrome浏览器上的浏览数据来分析用户的兴趣，以此给用户推荐相应网站的chrome浏览器插件。
+									</div>
+									<div>
+										<strong>个人职责：</strong>项目团队一共两人，本人承担页面的逻辑设计，以及追踪用户数据的编码工作，其中的数据存储以Json格式存储在localStorage里。
+									</div>
+								</div>
+								<div class="ui teal segment">
+									<div>
+										<h3 class="ui teal center aligned header">YJWM_FTP</h3>
+									</div>
+									<div>
+										<strong>项目人数：</strong>1人
+									</div>
+									<div>
+										<strong>项目时间：</strong>2012.11.1 – 2013.1.1
+									</div>
+									<div>
+										<strong>项目简介：</strong>这是一款基于Android的FTP客户端，该客户端可实现文件的浏览，上传，下载，新建，修改，删除，断点续传等功能。
+									</div>
+									<div>
+										<strong>个人职责：</strong>该项目由本人独自完成。其中采用了ftp4j的开源JAR包辅助实现。
+									</div>
+								</div>
+								<div class="ui teal segment">
+									<div>
+										<h3 class="ui teal center aligned header">即时聊天通讯系统</h3>
+									</div>
+									<div>
+										<strong>项目人数：</strong>6人
+									</div>
+									<div>
+										<strong>项目时间：</strong>2011.10.1 – 2011.12.31
+									</div>
+									<div>
+										<strong>项目简介：</strong>用于两人或多人间进行即时通信，主要功能有：桌面客户端可以与桌面客户端或网页端进行文字，图片以及文件的收发；用户还可以进行好友查找，修改密码，注册等。
+									</div>
+									<div>
+										<strong>个人职责：</strong>本人担任项目经理，负责服务器端及桌面客户端的编写。桌面客户端利用Java进行编写，服务器端采用Tomcat，MySQL，J2EE来搭建。客户端与服务器端采用Socket进行通信。
+									</div>
+								</div>
+								<div class="ui teal segment">
+									<div>
+										<h3 class="ui teal center aligned header">科研与教学成果管理系统</h3>
+									</div>
+									<div>
+										<strong>项目人数：</strong>3人
+									</div>
+									<div>
+										<strong>项目时间：</strong>2011.8.1 – 2011.9.30
+									</div>
+									<div>
+										<strong>项目简介：</strong>用于在校师生管理并查询科研与教学成果的关系系统。主要功能包括提交，查询科研成果；对不同用户分配不同权限；对于成果的审核等。
+									</div>
+									<div>
+										<strong>个人职责：</strong>本人完成了除页面设计以外的所有编码工作。采用了Tomcat,MySQL,Struts2,Hibernate 来完成项目。
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--个人技能-->
+					<div class="ui grid">
+						<div class="four wide column">
+							<div class="ui ribbon orange label">
+								<h3 class="ui header">个人技能</h3>
+							</div>
+						</div>
+						<div class="twelve wide column">
+							<div class="ui grid">
+								<div class="eight wide column">
+									<div class="ui active striped blue progress">										
+										<div class="bar" style="width: 90%;">
+											<h4 class="ui left floated header">Java</h4>
+										</div>
+									</div>
+								</div>
+								<div class="eight wide column">
+									<div class="ui active striped black progress">										
+										<div class="bar" style="width: 75%;">
+											<h4 class="ui  left floated header">C++</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ui grid">
+								<div class="eight wide column">
+									<div class="ui active striped green progress">										
+										<div class="bar" style="width: 85%;">
+											<h4 class="ui left floated header">JavaScript</h4>
+										</div>
+									</div>
+								</div>
+								<div class="eight wide column">
+									<div class="ui active striped red progress">										
+										<div class="bar" style="width: 85%;">
+											<h4 class="ui left floated header">HTML5</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="ui grid">
+								<div class="eight wide column">
+									<div class="ui active striped purple progress">										
+										<div class="bar" style="width: 90%;">
+											<h4 class="ui left floated header">Android</h4>
+										</div>
+									</div>
+								</div>
+								<div class="eight wide column">
+									<div class="ui active striped teal progress">										
+										<div class="bar" style="width: 85%;">
+											<h4 class="ui left floated header">数据库</h4>
+										</div>
+									</div>
+								</div>
+							</div>		
+						</div>
+					</div>
+					
+					<div class="one column row">
+						<div class="center aligned column">
+							<div class="ui center aligned buttons">
+								<div class="ui red animated button" onclick="parent.location='mailto:yjqmml@gmail.com'">
+									<div class="visible content">
+										给份offer
+									</div>
+									<div class="hidden content">
+										<i class="mail outline icon"></i>
+									</div>
+								</div>
+								<div class="or"></div>
+								<div class="ui animated positive button"  onclick="parent.location='mailto:yjqmml@gmail.com'">
+									<div class="visible content">
+										给个面试
+									</div>
+									<div class="hidden content">
+										<i class="mail outline icon"></i>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="two wide column"></div>
 		</div>
-
 	</body>
 </html>
